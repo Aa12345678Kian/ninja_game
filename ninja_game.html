@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <title>بازی نینجا 🥷</title>
 <style>
-button { font-size: 24px; padding: 10px 20px; }
-#hits { font-size: 20px; margin-top: 20px; }
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    button { font-size: 24px; padding: 10px 20px; }
+    #hits { font-size: 20px; margin-top: 20px; }
 </style>
 </head>
 <body>
