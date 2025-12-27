@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>بازی نینجا 🥷</title>
+<style>
+button { font-size: 24px; padding: 10px 20px; }
+#hits { font-size: 20px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<h1>بازی نینجا 🥷</h1>
+<button id="hitBtn">زدن ضربه 🥷</button>
+<div id="hits">تعداد ضربه‌های باقی‌مانده: 30</div>
+
+<script>
+let hitsLeft = 30;
+document.getElementById('hitBtn').addEventListener('click', () => {
+    if (hitsLeft > 0) {
+        hitsLeft--;
+        document.getElementById('hits').innerText = '🥷 ضربه زده شد! تعداد باقی‌مانده: ' + hitsLeft;
+    } else {
+        document.getElementById('hits').innerText = '⚠️ امروز دیگه ضربه‌ای نمیتونی بزنی!';
+    }
+});
+</script>
+</body>
+</html>
